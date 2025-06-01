@@ -1,6 +1,6 @@
 data modify storage qiq2i_sl:test dialogs.dialog set value {\
     type:"minecraft:multi_action", \
-    title:"§e主将降临", \
+    title:"§eawa", \
     "columns":10,\
     "actions":[\
         {\

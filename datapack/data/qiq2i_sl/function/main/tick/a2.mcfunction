@@ -10,6 +10,9 @@ $execute if score @s qiq2i_sl_trigger matches 1 run data modify storage qiq2i_sl
 # 分数为2 切换为扫雷模式
 $execute if score @s qiq2i_sl_trigger matches 2 run data modify storage qiq2i_sl:main PlayerData[{UUID:$(UUID)}].mode set value "dig"
 
+# 分数为3 重置游戏
+execute if score @s qiq2i_sl_trigger matches 3 run function qiq2i_sl:main/player_init
+
 # dialog
 $function qiq2i_sl:minesweeper/print_dialog_data with storage qiq2i_sl:main PlayerData[{UUID:$(UUID)}]
 scoreboard players reset @s qiq2i_sl_trigger

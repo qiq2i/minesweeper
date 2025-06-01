@@ -30,3 +30,12 @@ $execute if data storage qiq2i_sl:main PlayerData[{UUID:$(UUID),mode:"flag"}] ru
         "command": "trigger qiq2i_sl_trigger set 2"\
     }\
 }
+
+$data modify storage qiq2i_sl:main PlayerData[{UUID:$(UUID)}].dialog.actions append value {\
+    "label": "§b§l重置游戏",\
+    "width": 80,\
+    "action": {\
+        "type": "run_command",\
+        "command": "trigger qiq2i_sl_trigger set 3"\
+    }\
+}
