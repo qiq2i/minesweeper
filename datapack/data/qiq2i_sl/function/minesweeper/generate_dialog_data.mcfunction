@@ -5,7 +5,7 @@ $data modify storage qiq2i_sl:main PlayerData[{UUID:$(UUID)}].dialog set value {
     "type": "minecraft:multi_action",\
     "after_action": "wait_for_response",\
     "pause": false,\
-    "title": "§e扫雷游戏 §f模式: $(mode)",\
+    "title": "§e§l扫雷游戏 §c§l总雷数$(total_mines) §f§l模式: $(mode)",\
     "columns": 10,\
     "actions": []\
 }
