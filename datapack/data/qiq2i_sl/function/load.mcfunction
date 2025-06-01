@@ -1,0 +1,3 @@
+scoreboard objectives add qiq2i_sl_temp1 dummy
+scoreboard objectives add qiq2i_sl_temp2 dummy
+scoreboard objectives add qiq2i_sl_trigger trigger

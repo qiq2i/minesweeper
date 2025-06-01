@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:multi_action",
+    "pause": false,
+    "title": "§e扫雷游戏 §f剩余旗帜: $(flags_remaining) 模式: $(mode)",
+    "columns": 10,
+    "actions": [
+        {
+            "label": "§e§l扫雷模式",
+            "width": 80,
+            "action": {
+                "type": "run_command",
+                "command": "trigger qiq2i_sl_trigger set 1"
+            }
+        }
+    ]
+}

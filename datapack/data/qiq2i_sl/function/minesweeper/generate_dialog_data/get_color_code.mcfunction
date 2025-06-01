@@ -1,0 +1,10 @@
+execute store result score #temp_cell_state qiq2i_sl_temp1 run data get storage qiq2i_sl:main temp1.cell_state
+execute if score #temp_cell_state qiq2i_sl_temp1 matches 0 run data modify storage qiq2i_sl:main temp1.label set value "§f§l0"
+execute if score #temp_cell_state qiq2i_sl_temp1 matches 1 run data modify storage qiq2i_sl:main temp1.label set value "§9§l1"
+execute if score #temp_cell_state qiq2i_sl_temp1 matches 2 run data modify storage qiq2i_sl:main temp1.label set value "§2§l2"
+execute if score #temp_cell_state qiq2i_sl_temp1 matches 3 run data modify storage qiq2i_sl:main temp1.label set value "§c§l3"
+execute if score #temp_cell_state qiq2i_sl_temp1 matches 4 run data modify storage qiq2i_sl:main temp1.label set value "§5§l4"
+execute if score #temp_cell_state qiq2i_sl_temp1 matches 5 run data modify storage qiq2i_sl:main temp1.label set value "§6§l5"
+execute if score #temp_cell_state qiq2i_sl_temp1 matches 6 run data modify storage qiq2i_sl:main temp1.label set value "§e§l6"
+execute if score #temp_cell_state qiq2i_sl_temp1 matches 7 run data modify storage qiq2i_sl:main temp1.label set value "§8§l7"
+execute if score #temp_cell_state qiq2i_sl_temp1 matches 8 run data modify storage qiq2i_sl:main temp1.label set value "§0§l8"

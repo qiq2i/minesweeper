@@ -1,0 +1,22 @@
+{
+    "type": "confirmation",
+    "pause": false,
+    "after_action": "wait_for_response",
+    "title": {"text": "扫雷游戏","color":"yellow","bold": true},
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"]
+        }
+    ],
+    "yes": {
+        "label": "开始游戏",
+        "action": {
+            "type": "run_command",
+            "command": "trigger qiq2i_sl_trigger set -1"
+        }
+    },
+    "no": {
+        "label": "退出"
+    }
+}
